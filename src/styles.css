@@ -123,7 +123,6 @@ nav li {
 nav a {
   text-decoration: none;
   color: #272142;
-  opacity: 0.7;
 }
 nav a:hover,
 nav li.active a {
@@ -151,6 +150,10 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--secondary-color);
   background: var(--branding-color);
+}
+footer a {
+  color: var(--branding-color);
+  text-decoration: none;
 }
 footer .contact-box {
   background: var(--secondary-color);
